@@ -26,6 +26,7 @@ If you're installing this elsewhere, create a conda/other environment and instal
 
 # Key information on the submission scripts
 *model_type*
+
 This updated version can run original ProteinMPNN, LigandMPNN, SolubleMPNN, ProteinMPNN with global membrane label, proteinMPNN with per residue membrane label, and a sidechain packing model. This last is the most exciting, allowing an all-atom structure prediction of the outputs, powered by OpenFold. If you'd want a folded output, ensure you have the checkpoint in your submission script:
 ```
 --checkpoint_path_sc "./model_params/ligandmpnn_sc_v_32_002_16.pt"
