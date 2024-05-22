@@ -44,4 +44,3 @@ sed -i '0~2s/.\{8\}/&C/' #adds a 'C' residue in the **9th** position (Position i
 The backbone folder simply has a stripped backbone for each output. There is little information to be obtained from these. 
 
 If you ran a sidechain packing command, there will also be a 'packed' directory, with your all-atom PDB output file. As seen in the original github, there a few parameters on the number of packings, and repack everything option. This code is relatively new so I'll need to update this readme when I have a better understanding of these parameters. 
-```
