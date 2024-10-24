@@ -24,7 +24,7 @@ RFdiffusion-aa should generate backbones on the order of minutes. you need to ma
 - https://github.com/baker-laboratory/rf_diffusion_all_atom  
 - https://github.com/RosettaCommons/RFdiffusion
 
-# Bonus Test Case: Diffusion proteuins around the two hemes of 4D2 (PDB: 7AH0) 
+# Bonus Test Case: Diffusion proteins around the two hemes of 4D2 (PDB: 7AH0) 
 1. Copy the 4D2 crystal structure into the inputs folder
 2. Clean up the PDB by deleting all unneccessary lines (anything that's not protein e.g. CONNECT information)
 3. Run the "submission_heme.sh" script
